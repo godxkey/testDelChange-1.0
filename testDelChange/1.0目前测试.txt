@@ -8,4 +8,26 @@ git remote origin1
 origin2
 
 ++测试1.3
+origin1
 origin1失败-必须新建一个remote的origin才行
+
+使用：
+git remote remove origin1
+git remote remove origin2
+git remote remove origin3
+
+但是坚决不可以在网站更改这个文件，否则报错： 
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to ' '
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+！[拒绝]主人- >主人（先取）
+错误：未能推动一些裁判”
+提示：更新被拒绝，因为远程包含您所做的工作
+提示：没有本地。这通常是由另一个存储库推动的
+提示：在同一参考文献你可能想先把远程的变化
+提示：（例如，“git pull…”）推前了。
+提示：看到“注意快进在git push -帮助的细节。 
